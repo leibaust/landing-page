@@ -1,0 +1,204 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (called in normalize-fwd.css)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1D1D1D;
+    color: #D6FF62;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Bebas Neue", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+p {
+	font-family: "Playfair Display", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 800;
+  	font-style: normal;
+}
+
+
+/* Elements
+--------------------------------------------- */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+	padding: 20px;
+	margin: 0;
+}
+
+a {
+	color: #D6FF62;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #D6FF62;
+}
+
+a:hover {
+	background: #D6FF62;
+	color: #1D1D1D;
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+
+}
+
+.header-nav {
+	display: flex;
+	gap: 20px;
+	margin-left: auto;
+	padding: 1rem;
+}
+
+.la-logo {
+	max-width: 3.125rem;
+	height: auto;
+}
+
+
+/* Main
+--------------------------------------------- */
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+#about-me {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	/* background-image: url('../images/camera.png');
+	background-size: cover;
+	background-position: center; */
+	
+}
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+#project-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.project-item {
+	border: #D6FF62;
+	border-style: solid;
+	padding: 1rem;
+	justify-content: center;
+	text-align: center;
+}
+
+.project-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: #D6FF62;
+	border-style: solid;
+	padding: 1rem;
+}
+
+/* Footer
+--------------------------------------------- */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem;
+}
+
