@@ -184,6 +184,13 @@ h2 {
 	padding: 1rem;
 	justify-content: center;
 	text-align: center;
+	width: 120px;
+	height: 230px;
+}
+
+.project-img {
+	height: 90px;
+	display: flex;
 }
 
 .project-text {
@@ -193,6 +200,15 @@ h2 {
 	border: #D6FF62;
 	border-style: solid;
 	padding: 1rem;
+}
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 /* Footer
