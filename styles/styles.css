@@ -42,7 +42,7 @@ h6 {
 p {
 	font-family: "Playfair Display", serif;
   	font-optical-sizing: auto;
-  	font-weight: 800;
+  	font-weight: 600;
   	font-style: normal;
 }
 
@@ -55,22 +55,6 @@ ul {
 	padding: 0;
 }
 
-
-ol {
-	
-}
-
-dl {
-	
-}
-
-figure {
-	
-}
-
-table {
-	
-}
 
 /* Links
 --------------------------------------------- */
@@ -97,14 +81,6 @@ a:hover {
 	color: #1D1D1D;
 }
 
-a:focus {
-	
-}
-
-a:active {
-	
-}
-
 
 /*--------------------------------------------------------------
 # Layout
@@ -116,6 +92,10 @@ html, body {
 	overflow-x: hidden; /* Horizontal Scrolling Prevention */
 }
 
+main {
+	line-height: 1.5;
+
+}
 
 /*--------------------------------------------------------------
 # Components
