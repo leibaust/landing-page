@@ -23,9 +23,8 @@
 /* Typography
 --------------------------------------------- */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #1D1D1D;
-    color: #D6FF62;
+  background-color: #1d1d1d;
+  color: #d6ff62;
 }
 
 h1,
@@ -34,27 +33,24 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Bebas Neue", sans-serif;
-  	font-weight: 400;
-  	font-style: normal;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p {
-	font-family: "Playfair Display", serif;
-  	font-optical-sizing: auto;
-  	font-weight: 600;
-  	font-style: normal;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal;
 }
-
 
 /* Elements
 --------------------------------------------- */
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* Links
 --------------------------------------------- */
@@ -63,38 +59,38 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
-	padding: 5px;
-	margin: 0;
+  padding: 5px;
+  margin: 0;
 }
 
 a {
-	color: #D6FF62;
-	text-decoration: none;
+  color: #d6ff62;
+  text-decoration: none;
 }
 
 a:visited {
-	color: #D6FF62;
+  color: #d6ff62;
 }
 
 a:hover {
-	background: #D6FF62;
-	color: #1D1D1D;
+  background: #d6ff62;
+  color: #1d1d1d;
+  transition: 500ms;
 }
-
 
 /*--------------------------------------------------------------
 # Layout
 --------------------------------------------------------------*/
-html, body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	overflow-x: hidden; /* Horizontal Scrolling Prevention */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Horizontal Scrolling Prevention */
 }
 
 main {
-	line-height: 1.5;
-
+  line-height: 1.5;
 }
 
 /*--------------------------------------------------------------
@@ -105,99 +101,94 @@ main {
 --------------------------------------------- */
 
 header {
-	display: flex;
-	justify-content: space-between;
-	margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
 .header-nav {
-	display: flex;
-	gap: 20px;
-	margin-left: auto;
-	padding: 1rem;
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
 }
 
 .la-logo {
-	max-width: 3.125rem;
-	height: auto;
+  max-width: 3.125rem;
+  height: auto;
 }
 
 /* Main
 --------------------------------------------- */
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
 }
 
 #about-me {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	text-align: center;
-	max-width: 600px;
-	margin: 0 auto;
-	/* background-image: url('../images/camera.png');
-	background-size: cover;
-	background-position: center; */
-	
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 h2 {
-	font-size: 2rem;
-	text-align: center;
+  font-size: 2rem;
+  text-align: center;
 }
 
 #project-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .project-item {
-	border: #D6FF62;
-	border-style: solid;
-	padding: 1rem;
-	justify-content: center;
-	text-align: center;
-	width: 120px;
-	height: 230px;
+  border: #d6ff62;
+  border-style: solid;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  height: 230px;
 }
 
 .project-img {
-	height: 90px;
-	display: flex;
+  height: 90px;
+  display: flex;
 }
 
 .project-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border: #D6FF62;
-	border-style: solid;
-	padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #d6ff62;
+  border-style: solid;
+  padding: 1rem;
 }
 
 #contact {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	text-align: center;
-	max-width: 600px;
-	margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* Footer
 --------------------------------------------- */
 
 footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
 }
-
